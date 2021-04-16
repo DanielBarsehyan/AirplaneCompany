@@ -6,35 +6,7 @@ namespace AirPlaneCompany
     class Program
     {
         static void Main(string[] args)
-        {
-
-            //List<CrewMember> t = new List<CrewMember>();
-            ////t.Add(new CrewMember { Age = 18, Name = "1",Surname="Lu",Position=Positions.Captain });
-            ////t.Add(new CrewMember { Age = 18, Name = "2", Surname = "Lu", Position = Positions.Helsman });
-            ////t.Add(new CrewMember { Age = 18, Name = "3", Surname = "Lu", Position = Positions.SecondPilot });
-            ////t.Add(new CrewMember { Age = 18, Name = "4", Surname = "Lu", Position = Positions.Mechanics });
-            ////t.Add(new CrewMember { Age = 18, Name = "5", Surname = "Lu", Position = Positions.Mechanics });
-            //AirPlaneCompany a = new AirPlaneCompany();
-            //CargoPlane c = new CargoPlane(10100,123,t,"agfagw ",a);
-            //PassangerPlane s = new PassangerPlane();
-            ////c.CheckCrewStaffing();
-            ////CrewMember ce = new CrewMember() { Age = 19, Surname = "horhe", Name = "gol", Position = Positions.Mechanics };
-            ////CrewMember ce1 = new CrewMember() { Age = 19, Surname = "h2rhe", Name = "g1ggggggl", Position = Positions.Mechanics };
-
-            ////c.ChangeCrewMember(ce,t[4]);
-            ////c.CheckCrewStaffing();
-            ////c.AddCrewMember(ce1);
-            ////c.CheckCrewStaffing();
-
-            //a.AddPlane(c);
-            //Console.WriteLine(a.CompanyCargoLifnig());
-            //a.AddPlane(c);
-            //a.AddPlane(c);
-            //a.AddPlane(c);
-            //a.CompanyCargoLifnig();
-            //Console.WriteLine(a.ToString());
-
-            //a.ToString();
+        {          
             AirPlaneCompany company = new AirPlaneCompany() { Name="FlyAvio"};
             
             for (int i = 0; i < 10; i++)

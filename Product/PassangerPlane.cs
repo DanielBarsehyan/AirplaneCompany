@@ -99,6 +99,9 @@ namespace AirPlaneCompany
 
         public override void ChangeWholeCrew(List<CrewMember> crew)
         {
+            captain = false;
+            helsman = false;
+            secondpilot = false;
             bool additionalCrew = false;
             byte tempNumberOfStewardes = 0;
             if (crew == null)
